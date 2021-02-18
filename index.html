@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- drawer js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body class="drawer drawer--right">
+    <header>
+        <h1 class="header-title">
+            <a href="#" class="header-link">
+                <img src="img/logo.png">
+            </a>
+        </h1>
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li class="drawer-item">
+                    <a class="drawer-brand" href="#">
+                        <img src="img/icon.png" class="drawer-img">
+                    </a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="about.html">ABOUT US</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">WORKS</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">CULTURE</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">TOPICS</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mv">
+            <div class="mv-wrapper">
+                <div class="mv-content">
+                    <p class="mv-ja">デザインで人を笑顔にする会社</p>
+                    <p class="mv-en">DIGSMILE INC.</p>
+                    <p class="mv-en-big">
+                        DESIGN<br>
+                        FOR<br>
+                        SMILE.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="about">
+            <div class="container">
+                <div class="about-bg">
+                    <div class="about-textArea">
+                        <h2 class="section-title">ABOUT US</h2>
+                        <p class="about-text">
+                            DIGSMILEは、デザインで人を笑顔にする会社。<br>
+                            なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>
+                            DIGSMILEの社名にはそんな想いが込められています。
+                        </p>
+                        <div class="about-footer">
+                            <a href="about.html" class="btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="container works-container">
+                <div class="works-box">
+                    <h2 class="section-title">WORKS</h2>
+                    <div class="works-image">
+                        <img src="img/works.png">
+                    </div>
+                    <p class="works-text">DIGSMILEの制作実績を紹介します。</p>
+                    <div class="works-footer">
+                        <a href="#" class="btn">READ MORE</a>
+                    </div>
+                </div>
+                <div class="works-box">
+                    <h2 class="section-title">CULTURE</h2>
+                    <div class="works-image">
+                        <img src="img/culture.png">
+                    </div>
+                    <p class="works-text">DIGSMILEの社内文化について紹介します。</p>
+                    <div class="works-footer">
+                        <a href="#" class="btn">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="topics">
+            <div class="container">
+                <h2 class="section-title">LATEST TOPICS</h2>
+                <ul class="topics-list">
+                    <li class="topics-item">
+                        <a href="#" class="topics-link">
+                            <p class="topics-date">2020.02.01</p>
+                            <p class="topics-text">イベントレポート「VRクリエイター座談会 〜5Gの次に来るもの〜」</p>
+                        </a>
+                    </li>
+                    <li class="topics-item">
+                        <a href="#" class="topics-link">
+                            <p class="topics-date">2020.01.18</p>
+                            <p class="topics-text">プレスリリースのお知らせ DIGGIN’ RECORDS</p>
+                        </a>
+                    </li>
+                    <li class="topics-item">
+                        <a href="#" class="topics-link">
+                            <p class="topics-date">2020.01.01</p>
+                            <p class="topics-text">新年明けましておめでとうございます</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="topics-footer">
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container contact-container">
+                <div class="contact-textArea">
+                    <h2 class="section-title">CONTACT</h2>
+                    <p class="contact-text">
+                        制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>
+                        まずはお気軽にご連絡ください。担当者から改めて返信いたします。
+                    </p>
+                    <div class="contact-footer">
+                        <a href="contact.html" class="btn">READ MORE</a>
+                    </div>
+                </div>
+                <div class="contact-image">
+                    <img src="img/contact.png">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">©2018 DIGSMILE INC.</p>
+    </footer>
+</body>
+
+</html>
