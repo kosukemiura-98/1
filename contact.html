@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- drawer js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="drawer drawer--right">
+    <header>
+        <h1 class="header-title">
+            <a href="index.html" class="header-link">
+                <img src="logo.png">
+            </a>
+        </h1>
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li class="drawer-item">
+                    <a class="drawer-brand" href="#">
+                        <img src="icon.png" class="drawer-img">
+                    </a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="about.html">ABOUT US</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">WORKS</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">CULTURE</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="#">TOPICS</a>
+                </li>
+                <li class="drawer-item">
+                    <a class="drawer-menu-item" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mvContact">
+            <div class="mvContact-wrapper">
+                <div class="mvContact-content">
+                    <p class="mvContact-en">CONTACT</p>
+                    <p class="mvContact-ja">お問い合わせ</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact2">
+            <div class="contact2-container">
+                <p class="contact2-text">
+                    ご依頼やご相談についてのご質問やご要望がございましたら、下記フォームよりお気軽にお問い合わせください。送付いただいた内容を確認の上、担当者からご連絡させていただきます。</p>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd2pLJDvFKxpHVDqEpo5hW-AwTzUDuYwDo0Kz-1rIAkAVLOZw/formResponse" method="POST" class="contact2-form" id="form">
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">
+                            お問い合わせ種別
+                            <span class="contact2-label">必須</span>
+                        </dt>
+                        <dd class="contact2-input contact2-input-radio">
+                            <div class="contact2-radio-box">
+                                <input type="radio" name="entry.452055478" id="production" value="production" class="contact2-radio">
+                                <label for="production" class="contact2-radio-part">制作依頼</label>
+                            </div>
+                            <div class="contact2-radio-box">
+                                <input type="radio" name="entry.452055478" id="recruit" value="recruit" class="contact2-radio">
+                                <label for="recruit" class="contact2-radio-part">採用</label>
+                            </div>
+                            <div class="contact2-radio-box">
+                                <input type="radio" name="entry.452055478" id="ir" value="ir" class="contact2-radio">
+                                <label for="ir" class="contact2-radio-part">IR</label>
+                            </div>
+                            <div class="contact2-radio-box">
+                                <input type="radio" name="entry.452055478" id="other" value="other" class="contact2-radio">
+                                <label for="other" class="contact2-radio-part">その他</label>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">会社名・団体名</dt>
+                        <dd class="contact2-input">
+                            <input type="text" name="entry.556419072" id="company">
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">
+                            お名前
+                            <span class="contact2-label">必須</span>
+                        </dt>
+                        <dd class="contact2-input">
+                            <input type="text" name="entry.1083939640" id="name">
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">
+                            メールアドレス
+                            <span class="contact2-label">必須</span>
+                        </dt>
+                        <dd class="contact2-input">
+                            <input type="email" name="entry.631657265" id="email">
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">電話番号</dt>
+                        <dd class="contact2-input">
+                            <input type="number" name="entry.1757622163" id="number">
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item">
+                        <dt class="contact2-title">
+                            お問い合わせ内容
+                            <span class="contact2-label">必須</span>
+                        </dt>
+                        <dd class="contact2-input">
+                            <textarea name="entry.2110550435" id="content"></textarea>
+                        </dd>
+                    </dl>
+                    <dl class="contact2-item contact2-item-privacy">
+                        <p class="privacy-policy">PRIVACY POLICY</p>
+                        <div class="privacy-policy-area">
+                            <p class="privacy-policy-text">
+                                個人情報保護方針<br>
+                                株式会社DIGSMILE（以下、当社）では、個人情報の重要性を認識し、以下の基準に従って、適切な管理、保護に努めます。
+                            </p>
+                            <p class="privacy-policy-text">
+                                1.個人情報の収集、利用<br>
+                                当社では、お客様との取引、サービスの提供のために個人情報を適法に収集し、収集した目的の範囲内で、個人情報を利用いたします。
+                            </p>
+                            <p class="privacy-policy-text">
+                                2.個人情報の第三者への開示と提供<br>
+                                収集したお客様の個人情報は、法的な要請等によらない限り、お客様の承諾を得ない第三者に対して提供・開示はいたしません。<br>
+                                業務の都合上、業務委託先に個人情報を提供する場合は、機密保持契約等によって業務委託先に個人情報保護を義務付けるとともに、業務委託先が適切に個人情報を取り扱うように管理いたします。
+                            </p>
+                            <p class="privacy-policy-text">
+                                3.個人情報の保護<br>
+                                当社では、個人情報の紛失、破壊、改ざん、不正アクセス、および漏えい等を防止するため、適切な対策を行います。
+                            </p>
+                            <p class="privacy-policy-text">
+                                4.法令および関連規範の遵守<br>
+                                当社は、個人情報の取り扱いに関して、個人情報保護法をはじめとする個人情報に関する法令および関連する規範を遵守します。
+                            </p>
+                            <p class="privacy-policy-text">
+                                5.個人情報の開示・訂正・削除<br>
+                                当社では、個人情報の開示・訂正・削除等の依頼があった場合、情報提供者本人であることを確認の上、すみやかに対応いたします。
+                            </p>
+                            <p class="privacy-policy-text">法令や当社方針により、プライバシー・ポリシーを予告なく改訂することがあります。</p>
+                        </div>
+                    </dl>
+                    <dl class="contact2-item contact2-item-checkbox">
+                        <input type="checkbox" name="entry.615773208" id="checkbox" class="contact2-checkbox">
+                        <label for="checkbox" class="contact2-checkbox-part">個人情報の取り扱いについて同意のうえ送信します。</label>
+                    </dl>
+                    <dl class="contact2-item contact2-item-submit">
+                        <input type="submit" value="送信する" class="submit-btn">
+                    </dl>
+                </form>
+                <div class="end-message">
+                    <p>お問い合わせありがとうございました。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">©2018 DIGSMILE INC.</p>
+    </footer>
+</body>
+
+</html>
