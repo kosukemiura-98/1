@@ -211,7 +211,7 @@ img {
 }
 
 .mv .mv-wrapper {
-  background: url(../img/mv.png) center top/cover no-repeat;
+  background: url(mv.png) center top/cover no-repeat;
   position: relative;
   width: 76.4%;
   height: 86.5%;
@@ -312,7 +312,7 @@ img {
 }
 
 .about .container .about-bg {
-  background: url(../img/about.png) center center/cover no-repeat;
+  background: url(about.png) center center/cover no-repeat;
   padding: 110px 460px 110px 50px;
   position: relative;
   z-index: 1;
@@ -632,7 +632,7 @@ footer .footer-text {
 }
 
 .mvAbout .mvAbout-wrapper {
-  background: url(../img/mv-about.png) center center/cover no-repeat;
+  background: url(mv-about.png) center center/cover no-repeat;
   width: 76.3888%;
   height: 83.4051%;
   position: relative;
@@ -986,7 +986,7 @@ footer .footer-text {
 }
 
 .mvContact .mvContact-wrapper {
-  background: url(../img/mv-contact.png) center center/cover no-repeat;
+  background: url(mv-contact.png) center center/cover no-repeat;
   width: 76.3888%;
   height: 83.4051%;
   position: relative;
